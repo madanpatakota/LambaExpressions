@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DelegatesBasicsNamespace.Program</StartupObject>
+    <StartupObject>LambdaAdvanced.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Delegates\1.Delegates_Basics.cs" />
+    <Compile Include="1.Delegates\2.Delegates_RealTimeExample.cs" />
+    <Compile Include="1.Delegates\3.Delegates_Advanced.cs" />
+    <Compile Include="2.Built-in_Delegates\1.Built-in_Delegates_Basiics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
