@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LambdaAdvanced.Program</StartupObject>
+    <StartupObject>ActionDelegateNamespace.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,6 +50,9 @@
     <Compile Include="1.Delegates\2.Delegates_RealTimeExample.cs" />
     <Compile Include="1.Delegates\3.Delegates_Advanced.cs" />
     <Compile Include="2.Built-in_Delegates\1.Built-in_Delegates_Basiics.cs" />
+    <Compile Include="2.Built-in_Delegates\1.Func_Delegate.cs" />
+    <Compile Include="2.Built-in_Delegates\2.Action_Delegate.cs" />
+    <Compile Include="2.Built-in_Delegates\3.Predicate_Delegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
